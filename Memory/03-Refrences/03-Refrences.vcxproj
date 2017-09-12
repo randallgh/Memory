@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E3138D67-E3D9-458F-8712-0A77BBB25872}</ProjectGuid>
-    <RootNamespace>My03StorageLink</RootNamespace>
+    <ProjectGuid>{FA41CF6D-43E7-481D-A101-E2BE3924C297}</ProjectGuid>
+    <RootNamespace>My03Refrences</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,6 +110,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Aussiegochi.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mixtape.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aussiegochi.h" />
+    <ClInclude Include="mixtape.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

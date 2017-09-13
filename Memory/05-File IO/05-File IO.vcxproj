@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{42EA4D5F-9096-4DB2-83BB-E8BB9E5E8517}</ProjectGuid>
-    <RootNamespace>My04FileIO</RootNamespace>
+    <ProjectGuid>{73DFE6BC-2176-49C8-A656-3A6F7DDD0216}</ProjectGuid>
+    <RootNamespace>My05FileIO</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,6 +110,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="animemes.txt" />
+    <Text Include="importantMessage.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
